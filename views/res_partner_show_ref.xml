@@ -11,7 +11,8 @@
                  <xpath expr="//field[@name='vat']" position="after">
                     <field name="ref"
                            placeholder="Referencia interna..."
-                           sring="Referencia interna"/>
+                           sring="Referencia interna"
+                           required="1"/>
                 </xpath>
 
                 <xpath expr="//page[@name='sales_purchases']//field[@name='ref']" position="replace">
